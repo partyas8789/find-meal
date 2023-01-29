@@ -133,6 +133,7 @@
     width: 60%;
     height: 30%;
     /* border: 2px solid red; */
+    border: none;
     border-radius: 50px;
     background-color: #d65108;
 }
