@@ -228,4 +228,7 @@ img{
         margin-left: 5rem;
         /* border: 2px solid black; */
     }
+    .recipecard{
+        width: 300px;
+    }
 }
