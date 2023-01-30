@@ -66,7 +66,7 @@ async function create(params) {
     const recipecardname = document.createElement("div")
     div.appendChild(recipecardname)
     recipecardname.classList.add("recipecardname")
-    const recipecardnameh1 = document.createElement("h1")
+    const recipecardnameh1 = document.createElement("h2")
     var recipecardnamemeal = document.createTextNode(data.meals[0].strMeal)
     recipecardnameh1.appendChild(recipecardnamemeal)
     recipecardname.appendChild(recipecardnameh1)

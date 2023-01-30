@@ -187,7 +187,7 @@
     
 }
 .cross button{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     
     border-radius: 50%;
     border: none;
@@ -206,7 +206,13 @@ img{
     color: #d65108;
     border-radius: 10px;
 }
-.recipecardpara{
+.recipecardname{
+    padding-left: 3rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.recipecardname,.recipecardpara{
     padding-left: 3rem;
     padding-right: 3rem;
     
@@ -232,4 +238,22 @@ img{
     .recipecard{
         width: 300px;
     }
+}
+@media only screen and (max-width:500px){
+
+    /* .card{
+        width: 80%;
+    }
+    .recipecard{
+        width: 300px;
+    } */
+    .maincontainerupper{
+        width: 80%;
+    }
+    .maincontainermiddleupperdiv{
+        width: 80%;
+    }
+    /* .recipecardname{
+        margin-left: 3rem;
+    } */
 }
