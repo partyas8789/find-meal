@@ -217,6 +217,9 @@ img{
     padding-right: 3rem;
     
 }
+h1, p, h3{
+    text-align: center;
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -225,35 +228,26 @@ img{
 
     .card{
         width: 45%;
-        /* border: 2px solid green; */
     }
 }
 @media only screen and (max-width:799px){
 
     .card{
         width: 80%;
-        /* margin-left: 5rem; */
-        /* border: 2px solid black; */
     }
     .recipecard{
         width: 300px;
+    }
+    .notfound{
+        width: 80%;
+        height: 50%;
     }
 }
 @media only screen and (max-width:500px){
-
-    /* .card{
-        width: 80%;
-    }
-    .recipecard{
-        width: 300px;
-    } */
     .maincontainerupper{
         width: 80%;
     }
     .maincontainermiddleupperdiv{
         width: 80%;
     }
-    /* .recipecardname{
-        margin-left: 3rem;
-    } */
 }
