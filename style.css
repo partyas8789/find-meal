@@ -60,6 +60,12 @@
     height: 100%;
     /* border: 2px solid red; */
 }
+input{
+    color: #d65108;
+}
+::placeholder{
+    color: #d65108;
+}
 .maincontainermiddleupperdivright{
     width:10%;
     height: 100%;
@@ -170,6 +176,12 @@
     /* border: 2px solid green; */
     
 }
+a{
+    color: white;
+}
+.button h2{
+    color: white;
+}
 .cross{
     justify-content: flex-end;
     
@@ -217,7 +229,7 @@ img{
     padding-right: 3rem;
     
 }
-h1, p, h3{
+h1,h2, p, h3{
     text-align: center;
 }
 ::-webkit-scrollbar {
@@ -249,5 +261,11 @@ h1, p, h3{
     }
     .maincontainermiddleupperdiv{
         width: 80%;
+    }
+    .maincontainermiddleupperdivleft{
+        width: 80%;
+    }
+    .maincontainermiddleupperdivright{
+        width: 20%;
     }
 }
