@@ -62,6 +62,7 @@
 }
 input{
     color: #d65108;
+    font-size: larger;
 }
 ::placeholder{
     color: #d65108;
